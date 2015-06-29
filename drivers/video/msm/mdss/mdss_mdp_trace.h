@@ -17,7 +17,7 @@
 #undef TRACE_SYSTEM
 #define TRACE_SYSTEM mdss
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../../../drivers/video/msm/mdss
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE mdss_mdp_trace
 
@@ -252,4 +252,4 @@ TRACE_EVENT(mdp_trace_counter,
 #endif /* if !defined(TRACE_MDSS_MDP_H) || defined(TRACE_HEADER_MULTI_READ) */
 
 /* This part must be outside protection */
-#include <trace/define_trace.h>
+#include "trace/define_trace.h"
